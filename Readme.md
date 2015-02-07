@@ -35,7 +35,7 @@ Using `eventLabel` property you can specify the label of the event e.g "Banner A
 
 ### Passing properties
 
-To pass multiple properties for the event you can type the keyword prop followed by the property name e.g propProduct="Laptop" propPrice="500"
+To pass multiple properties for the event you can type the keyword prop followed by the property name e.g `propProduct="Laptop" propPrice="500"`
 
 
 ## Built by [ML&Co](http://mohammedlakkadshaw.com)
