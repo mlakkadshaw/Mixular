@@ -27,11 +27,11 @@ module('mixular-directive', []).directive('mixular', [
 
                     //Add all the attributes that begin with
                     //prop in the properties object.
-                    // for (key in attrs) {
-                    //     if (key.indexOf("prop")) {
-                    //         properties[key] = attrs[key];
-                    //     }
-                    // }
+                    for (key in attrs.$attr) {
+                        if (key.indexOf("prop") > -1) {
+                            properties[key] = attrs[key];
+                        }
+                    }
 
                     //Send the tracking info to mix-panel
                     mixpanel.track(attrs.eventlabel, properties);

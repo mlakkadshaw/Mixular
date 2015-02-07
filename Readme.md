@@ -17,7 +17,7 @@ You must include the Mixpanel javascript tracking library, then add the tracking
 	
 After that, you can start tracking events on your pages, like this:
 
-	<a href="#/feedback" mixular="click" eventLabel="Feedback Clicked" propUser="James">Feedback</a>	
+	<a href="#/feedback" mixular="click" eventLabel="Feedback Clicked" prop-user="James">Feedback</a>	
 	
 	
 You will have to add `mixular` and specify the event on which you want to do the tracking. 
@@ -42,7 +42,7 @@ Using `eventLabel` property you can specify the label of the event e.g "Banner A
 
 ### Passing properties
 
-To pass multiple properties for the event you can type the keyword prop followed by the property name e.g `propProduct="Laptop" propPrice="500"`
+To pass multiple properties for the event you can type the keyword prop followed by the property name e.g `prop-product="Laptop" prop-price="500"`
 
 
 ## Built by [ML&Co](http://mohammedlakkadshaw.com)
