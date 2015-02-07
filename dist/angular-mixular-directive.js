@@ -4,7 +4,8 @@ angular.
  *
  * Description
  */
-.module('mixular-directive', []).directive('', ['',
+module('mixular-directive', []).directive('mixular', [
+
     function() {
         // Runs during compile
         return {
@@ -20,20 +21,20 @@ angular.
             // replace: true,
             // transclude: true,
             // compile: function(tElement, tAttrs, function transclude(function(scope, cloneLinkingFn){ return function linking(scope, elm, attrs){}})),
-            link: function($scope, iElm, iAttrs, controller) {
+            link: function($scope, elm, attrs, controller) {
                 elm.on(attrs.mixular, function(evnt) {
                     var properties = {};
 
                     //Add all the attributes that begin with
                     //prop in the properties object.
-                    for (key in attrs) {
-                        if (key.indexOf("prop")) {
-                            properties[key] = attrs[key];
-                        }
-                    }
+                    // for (key in attrs) {
+                    //     if (key.indexOf("prop")) {
+                    //         properties[key] = attrs[key];
+                    //     }
+                    // }
 
                     //Send the tracking info to mix-panel
-                    mixpanel.track(attrs.eventLabel, properties);
+                    mixpanel.track(attrs.eventlabel, properties);
                 });
             }
         };
