@@ -2,6 +2,13 @@
 
 Mixular is directive which you can use in your angularJS applications to track mix panel events.
 
+## Installation via bower
+
+You can install mixular via bower, to install run:
+
+	bower install --save mixular
+
+
 ## How to use it
 
 You must include the Mixpanel javascript tracking library, then add the tracking-directive dependency in your AngularJS app.
