@@ -1,25 +1,25 @@
 {
-  "name": "Mixular",
-  "version": "0.0.1",
-  "authors": [
-    "Mohammed Lakkadshaw <mohammed.lakkadshaw@gmail.com>"
-  ],
-  "description": "Mixpanel tracking for angularJS",
-  "main": "dist/angular-mixular-directive.js",
-  "keywords": [
-    "mixpanel",
-    "angularjs",
-    "directive",
-    "tracking",
-    "analytics"
-  ],
-  "license": "MIT",
-  "homepage": "http://mohammedlakkadshaw.com",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "Mixular",
+    "version": "0.0.2",
+    "authors": [
+        "Mohammed Lakkadshaw <mohammed.lakkadshaw@gmail.com>"
+    ],
+    "description": "Mixpanel tracking for angularJS",
+    "main": "dist/angular-mixular-directive.js",
+    "keywords": [
+        "mixpanel",
+        "angularjs",
+        "directive",
+        "tracking",
+        "analytics"
+    ],
+    "license": "MIT",
+    "homepage": "http://mohammedlakkadshaw.com",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }

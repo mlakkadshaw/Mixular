@@ -4,7 +4,7 @@ angular.
  *
  * Description
  */
-angular.module('mixular-directive', []).directive('', ['',
+.module('mixular-directive', []).directive('', ['',
     function() {
         // Runs during compile
         return {
